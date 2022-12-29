@@ -1,0 +1,26 @@
+{
+  "name": "@nitsantechnologies/ns_pwa",
+  "version": "1.0.0",
+  "description": "Ns PWA Builder",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitsan-technologies/ns_vanilla_site_speed_bootster.git"
+  },
+  "keywords": [
+    "PWA",
+    "Progressive Web App",
+    "Web App",
+    "SEO",
+    "Speed"
+  ],
+  "author": "Team NITSAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nitsan-technologies/ns_vanilla_site_speed_bootster/issues"
+  },
+  "homepage": "https://github.com/nitsan-technologies/ns_vanilla_site_speed_bootster#readme"
+}
