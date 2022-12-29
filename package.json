@@ -15,7 +15,14 @@
     "Progressive Web App",
     "Web App",
     "SEO",
-    "Speed"
+    "Speed",
+    "App",
+    "Service Workers",
+    "Web App Manifest",
+    "Mobile",
+    "SPA",
+    "manifest",
+    "Vanilla Javascript"
   ],
   "author": "Team NITSAN",
   "license": "MIT",

@@ -4,16 +4,15 @@ class NsPwa {
       pwa_short_name: 'App Short Name',
       pwa_name: 'App Name',
       pwa_start_url: 'Main URL (like: / , https://example.com/)',
-      pwa_background_color: 'Background Color',
+      pwa_background_color: '#000',
       pwa_display: 'standalone',
-      pwa_theme_color: 'Theme Color',
+      pwa_theme_color: '#000',
       pwa_icon_48: '/pwa/icon/pwa-48.png',
       pwa_icon_72: '/pwa/icon/pwa-72.png',
       pwa_icon_96: '/pwa/icon/pwa-96.png',
       pwa_icon_144: '/pwa/icon/pwa-144.png',
       pwa_icon_192: '/pwa/icon/pwa-192.png',
       pwa_icon_512: '/pwa/icon/pwa-512.png',
-      pwa_service_worker: '/pwa/service-worker.js',
       // If you need json file Code Please Enabled this option
       pwa_get_json: false,
     };
@@ -108,7 +107,7 @@ class NsPwa {
     window.addEventListener('load', async () => {
       if ('serviceWorker' in navigator) {
         try {
-          const registration = await navigator.serviceWorker.register(this.options.pwa_service_worker);
+          const registration = await navigator.serviceWorker.register('/service-worker.js');
           console.log('ServiceWorker registration successful with scope: ', registration.scope);
           const notificationPermission = await Notification.requestPermission();
           if (notificationPermission !== 'granted') {
