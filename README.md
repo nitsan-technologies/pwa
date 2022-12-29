@@ -78,10 +78,7 @@ const NsPwaVar = new NsPwa({
   pwa_icon_144: "/pwa/icon/pwa-144.png",
   pwa_icon_192: "/pwa/icon/pwa-192.png",
   pwa_icon_512: "/pwa/icon/pwa-512.png",
-
-  // Make Sure your Service-worker JS Added following path at root>pwa>service-worker.js
-  pwa_service_worker: "/pwa/service-worker.js",
-
+  
   //You can see your JSON Code with this option
   pwa_get_json: true,
 });
