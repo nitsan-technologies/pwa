@@ -6,7 +6,6 @@
 
 - Plug-n-play PWA feature
 - Easy to install PWA
-- Light weight plugin (~2KB)
 - Pre-configured Package
 - Customizable and Extendible
 
