@@ -1,5 +1,5 @@
 {
-  "name": "@nitsantechnologies/ns_pwa",
+  "name": "@nitsantechnologies/ns-pwa",
   "version": "1.0.0",
   "description": "Ns PWA Builder",
   "main": "main.js",
