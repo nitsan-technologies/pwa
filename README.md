@@ -8,6 +8,10 @@
 - Easy to install PWA
 - Pre-configured Package
 - Customizable and Extendible
+- Access content on any device
+- Access web content even when the internet connection is weak or not available
+- Load websites quickly
+- Benefit from a high-quality user experience
 
 **Advantages**:
 
