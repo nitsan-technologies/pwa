@@ -167,7 +167,7 @@ Available in [latest browsers](http://caniuse.com/#feat=intersectionobserver).
 
 Interested in contributing features and fixes?
 
-[Excited to receive your PR](https://github.com/nitsan-technologies/ns_pwa).
+[Excited to receive your PR](https://github.com/nitsan-technologies/pwa).
 
 ## License
 
